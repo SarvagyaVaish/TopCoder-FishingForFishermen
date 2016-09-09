@@ -14,3 +14,5 @@ RUN cd libais-repo && python setup.py build && python setup.py install
 # Settings and prefs
 RUN echo "alias ls=\"ls -laG\"" >> ~/.bashrc
 
+WORKDIR /fishermen
+
